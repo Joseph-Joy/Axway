@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="b7a782a8-899b-4612-b3f4-c2d301a86f91" activeEnvironment="Default" name="API" resourceRoot="" soapui-version="5.5.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="users"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="User_Validation"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="C:\Users\bharathirajar\Desktop\siva"/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="97cfeee1-91c2-4819-b00a-8c0e9aa4940d" wadlVersion="http://wadl.dev.java.net/2009/02" name="" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="POSTOneUsers" path="api/register" id="753c479d-62ea-4e54-9920-a814a99d2093"><con:settings/><con:parameters/><con:method name="Users 1" id="747acea4-38e8-4da8-a15d-10d3504a3971" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:user="https://reqres.in/api/users">user:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>404 400</con:status><con:params/><con:element>Fault</con:element></con:representation><con:request name="Request 1" id="40be24ea-7e77-44a0-9ada-5c2ea6b6bf53" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/</con:endpoint><con:request>{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}</con:request><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource><con:resource name="post_user" path="/api/users" id="753c479d-62ea-4e54-9920-a814a99d2093"><con:settings/><con:parameters/><con:method name="Users 1" id="747acea4-38e8-4da8-a15d-10d3504a3971" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200 201</con:status><con:params/><con:element xmlns:user="https://reqres.in/api/users">user:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/xml</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="40be24ea-7e77-44a0-9ada-5c2ea6b6bf53" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/</con:endpoint><con:request>{
+    "name": "morpheus",
+    "job": "leader"
+}</con:request><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource><con:resource name="PutorUpdate_user" path="/api/users/{id}" id="753c479d-62ea-4e54-9920-a814a99d2093"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Users 1" id="747acea4-38e8-4da8-a15d-10d3504a3971" method="PUT"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200 201</con:status><con:params/><con:element xmlns:user="https://reqres.in/api/users">user:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/xml</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="40be24ea-7e77-44a0-9ada-5c2ea6b6bf53" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/</con:endpoint><con:request>{
+    "name": "siva",
+    "job": "zion resident"
+}</con:request><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="3" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="Delete_user" path="/api/users{id}" id="753c479d-62ea-4e54-9920-a814a99d2093"><con:settings/><con:parameters><con:parameter><con:name>id</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Users 1" id="747acea4-38e8-4da8-a15d-10d3504a3971" method="DELETE"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200 201</con:status><con:params/><con:element xmlns:user="https://reqres.in/api/users">user:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="40be24ea-7e77-44a0-9ada-5c2ea6b6bf53" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="1" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="ListAllUsers" path="/api/users" id="753c479d-62ea-4e54-9920-a814a99d2093"><con:settings/><con:parameters/><con:method name="Users 1" id="747acea4-38e8-4da8-a15d-10d3504a3971" method="GET"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:user="https://reqres.in/api/users">user:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="40be24ea-7e77-44a0-9ada-5c2ea6b6bf53" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource></con:interface><con:testSuite id="f1a05cdc-2f97-4cc4-a22e-8d72c3927ff7" name="users"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="641a0f6c-8bcc-4d0d-877f-b05c79479baf" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="restrequest" name="ListallUser" id="f4b9eeeb-774c-4119-8654-4c5d409c4073"><con:settings/><con:config service="" resourcePath="/api/users" methodName="Users 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="ListallUser" id="40be24ea-7e77-44a0-9ada-5c2ea6b6bf53" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/users</con:originalUri><con:assertion type="GroovyScriptAssertion" id="5e842d34-a314-424d-af9e-5cf5fa5c64e4" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper
+def responseJson = messageExchange.response.contentAsString
+def sluper= new JsonSlurper().parseText(responseJson)
+String id= sluper.id
+context.testCase.setPropertyValue("id",id)
+log.info(id)
+</scriptText></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="eb8e8670-9407-46db-aba9-8f78783b34d8" name="Valid HTTP Status Codes"><con:configuration><codes>201</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="page" value="3" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>page</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="PutUser" id="2545bb09-017e-4e68-a4dc-715326001c93"><con:settings/><con:config service="" resourcePath="/api/users/{id}" methodName="Users 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="PutUser" id="40be24ea-7e77-44a0-9ada-5c2ea6b6bf53" mediaType="application/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/</con:endpoint><con:request>{
+    "name": "${#TestCase#Name}",
+    "job": "${#TestCase#Job}"
+}</con:request><con:originalUri>https://reqres.in/api/users</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="324687cb-500a-4c38-839a-59bba13a1984" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="id" value="${#TestCase#id}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>id</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="RegisterAPI" id="7c797eac-7993-416e-972b-f114d6145232"><con:settings/><con:config service="" resourcePath="/api/register" methodName="Users 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="RegisterAPI" id="40be24ea-7e77-44a0-9ada-5c2ea6b6bf53" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/</con:endpoint><con:request>${#TestCase#Payload}</con:request><con:originalUri>https://reqres.in/api/users</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="74da73fc-5d1c-4832-b49b-6cc1f239f999" name="Valid HTTP Status Codes"><con:configuration><codes>${#TestCase#ExpectedStatusCode}</codes></con:configuration></con:assertion><con:assertion type="GroovyScriptAssertion" id="26cbc5e5-7507-435d-837f-fc2d10b4362a" name="Script Assertion"><con:configuration><scriptText>import groovy.json.JsonSlurper
+def responseJson = messageExchange.response.contentAsString
+def sluper= new JsonSlurper().parseText(responseJson)
+String ResponseValue= sluper.error
+String IdValue = sluper.id
+String token = sluper.token
+
+if ( context.expand('${#TestCase#ExpectedStatusCode}')== "200")
+    
+     if(IdValue!= null &amp;&amp; token != null)
+     {
+	log.info("Success")
+	assert true
+	}
+	else 
+	{
+		assert false
+		}
+else
+
+	if(ResponseValue == context.expand('${#TestCase#ErrorResponse}'))
+	{
+		assert true
+	}
+	else
+	{
+	assert false
+	}
+
+
+</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="ce394f62-d600-458b-9d83-7ccf97999f7d"><con:settings/><con:config><script><![CDATA[import com.codoid.products.exception.FilloException;
+import com.codoid.products.fillo.Connection;
+import com.codoid.products.fillo.Fillo;
+import com.codoid.products.fillo.Recordset;
+import jxl.*;
+import java.io.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+log.info("Base Path "+context.expand('${#TestSuite#TestData_BasePath}'))
+Fillo fillo=new Fillo();
+Connection connection=fillo.getConnection(context.expand('${#TestSuite#TestData_BasePath}'));
+
+String Log_flag  = null
+
+  
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+def projectDir = groovyUtils.projectPath
+
+
+TestCaseId = context.expand('${#TestCase#TestCaseID}')
+
+DateFormat dateFormat = new SimpleDateFormat(String.valueOf("yyyy_MM_dd"));
+DateFormat TimeFormat = new SimpleDateFormat(String.valueOf("HH_mm_ss"));
+Date date= new Date();
+String Date_Value = dateFormat.format(date);
+String Time_Value = TimeFormat.format(date);
+log.info("Hello "+ Date_Value + " " + Time_Value);
+int flag = 0
+File Log_path = new File(projectDir+"\\..\\Results\\"+Date_Value+"\\"+TestCaseId)
+log.info(Log_path)
+if(!Log_path.isDirectory()){
+      Log_path.mkdirs();
+}
+
+
+
+def count=testRunner.testCase.getTestStepCount();
+log.info(count)
+
+
+for(int i=0;i<count-2;i++)
+{
+String StepName = new String(testRunner.testCase.getTestStepAt(i).name)
+String Enable= testRunner.testCase.getTestStepAt(i).isDisabled()
+log.info("Steps_Enabled" + Enable)
+log.info(StepName)
+
+
+if((!StepName.equals("Selenium"))&&(Enable.equals("false")))
+
+{
+def assertion = testRunner.testCase.getTestStepAt(i).getAssertionList()
+def assertion_count = testRunner.testCase.getTestStepAt(i).getAssertionList().size()
+for(int j = 0 ;j<assertion_count;j++){
+	String Status=assertion[j].getStatus()
+	log.info("Status"+Status)
+	log.info(Status.equals("FAILED"))
+	if(Status.equals("FAILED"))
+	{
+		flag = 0
+		log.info("Fail"+flag)
+		Log_flag = "Fail"
+		
+		break;	
+	}else{
+		flag = 1
+		Log_flag = "Pass"
+	}
+}
+
+
+}
+
+}
+
+String Log_file =Log_path.getPath() +"\\"+Log_flag+"_"+Time_Value+".txt"
+def filename = new File (Log_file)
+
+
+for(int i=0;i<count-2;i++)
+{
+									String Enable= testRunner.testCase.getTestStepAt(i).isDisabled()
+									   String StepName = new String(testRunner.testCase.getTestStepAt(i).name)
+
+									   if((!StepName.equals("Selenium"))&&(Enable.equals("false")))
+
+									{
+									  filename.append("\r\n")
+									   filename.append("\r\n")
+									   filename.append("\r\n")
+                                                filename.append("Step Name "+ StepName+"\r\n")
+                                                log.info("Came Step start")
+                                                filename.append("\r\n")
+                                                filename.append("***********************Step Start****************\r\n")
+                                                filename.append("***********************Request*******************\r\n")
+                                                log.info("Came Request")
+                                                String reqeust = new String(testRunner.testCase.getTestStepAt(i).testRequest.response.rawRequestData)
+                                                filename.append(reqeust+"\r\n")
+                                                log.info("Came Response")
+                                                filename.append("***********************Response*******************\r\n")
+                                                String response= new String(testRunner.testCase.getTestStepAt(i).testRequest.response.rawResponseData)
+                                                filename.append(response+"\r\n")
+                                                log.info("Came End")
+                                                filename.append("***********************Step End*******************\r\n")
+                                                log.info("about t close")
+                                                //filename.close()
+                                                log.info("Closed")  
+
+
+									}
+
+}
+
+
+
+
+
+if(flag == 1){
+	log.info("TestCaseStatus :Passed")
+	 context.testCase.setPropertyValue("TestCase_Status","Passed")
+         StatusQuery="Update "+context.expand('${#TestSuite#TestData_Sheet_Name}')+" Set TestResult ='Passed',API_Log_Path ='"+Log_file+"' where TestCaseName='"+context.expand('${#TestCase#TestCaseName}')+"'";   
+
+}
+else
+{
+	log.info("TestCaseStatus: Failed")
+	 context.testCase.setPropertyValue("TestCase_Status","Failed")
+         StatusQuery="Update "+context.expand('${#TestSuite#TestData_Sheet_Name}')+" Set TestResult ='Failed',API_Log_Path ='"+Log_file+"' where TestCaseName='"+context.expand('${#TestCase#TestCaseName}')+"'";   
+}
+
+
+
+log.info(StatusQuery)
+
+connection.executeUpdate(StatusQuery);
+connection.close();
+
+
+
+]]></script></con:config></con:testStep><con:testStep type="groovy" name="loopData" id="96576e4b-1078-4b82-aee5-8070866ad4ac"><con:settings/><con:config><script>import jxl.*;
+import java.io.*;
+
+try{
+
+              
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+def projectDir = groovyUtils.projectPath                        
+def testData_file = projectDir+"\\..\\Database\\APITestData_DB.xls";
+
+Workbook wrkbk_TD = Workbook.getWorkbook(new File(testData_file))
+Sheet sheet_TD = wrkbk_TD.getSheet("Final")
+int row_Count_Used_TD = sheet_TD.getRows()
+int col_Count_Used_TD = sheet_TD.getColumns()
+def current_row = testRunner.testCase.getPropertyValue("current_row")
+
+if(Integer.parseInt(current_row)&lt;row_Count_Used_TD){
+                for(int i = Integer.parseInt(current_row) ; i&lt;row_Count_Used_TD; i++){
+                                if( sheet_TD.getCell(1,Integer.parseInt(current_row)).getContents() == "1"){
+                                        
+                                              String APIName = sheet_TD.getCell(2,Integer.parseInt(current_row)).getContents()
+                                                                                                                               
+                                                   testRunner.testCase.setName(APIName)
+                                                   log.info(APIName)
+                                                for( int j = 2;j&lt;col_Count_Used_TD;j++){
+                                                                String data_Header = sheet_TD.getCell(j,0).getContents()           
+                                                                String data = sheet_TD.getCell(j,Integer.parseInt(current_row)).getContents()
+                                                               
+                                                                testRunner.testCase.setPropertyValue(data_Header, data)
+                                                }
+                                                int count = Integer.parseInt(current_row)+1
+                                                testRunner.testCase.setPropertyValue("current_row",count.toString())
+                                                testRunner.gotoStep(0)
+                                                break;
+                                }
+                                current_row = String.valueOf(Integer.parseInt(current_row) +1)
+                }
+
+                
+}
+else{
+log.info("Data is finished")
+} 
+
+}
+catch(Exception e){
+log.info("Exception in the loop Data" +e)
+}
+
+
+</script></con:config></con:testStep><con:setupScript>import jxl.*;
+import java.io.*;
+
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+def projectDir = groovyUtils.projectPath
+log.info(projectDir)
+
+def testData_file = projectDir+"\\..\\Database\\APITestData_DB.xls";
+
+testCase.testSuite.setPropertyValue("TestData_BasePath",projectDir+"\\..\\Database\\APITestData_DB.xls")
+
+Workbook wrkbk_TD = Workbook.getWorkbook(new File(testData_file))
+Sheet sheet_TD = wrkbk_TD.getSheet("Final")
+int row_Count_Used_TD = sheet_TD.getRows()
+int col_Count_Used_TD = sheet_TD.getColumns()
+
+def current_row = testCase.testSuite.project.getPropertyValue("Project_TestData_Row")
+log.info(current_row)
+if(Integer.parseInt(current_row)&lt;row_Count_Used_TD){
+	for(int i = Integer.parseInt(current_row) ; i&lt;row_Count_Used_TD; i++){
+		if( sheet_TD.getCell(1,Integer.parseInt(current_row)).getContents() == "1"){
+			
+			for( int j = 2;j&lt;col_Count_Used_TD;j++){
+				
+				String data_Header = sheet_TD.getCell(j,0).getContents()	
+				String data = sheet_TD.getCell(j,Integer.parseInt(current_row)).getContents()
+				log.info(data_Header+" "+ data+" "+j +" " +col_Count_Used_TD)
+				testCase.setPropertyValue(data_Header, data)
+			}
+			int count = Integer.parseInt(current_row)+1
+			testCase.setPropertyValue("current_row",count.toString())
+			break;
+		}
+		current_row = String.valueOf(Integer.parseInt(current_row) +1)
+	}
+	
+}
+else{
+log.info("Data is finished")
+}
+
+
+String APIName = sheet_TD.getCell(2,Integer.parseInt(current_row)).getContents()
+ 
+   testRunner.testCase.setName(APIName)
+  </con:setupScript><con:tearDownScript>testRunner.testCase.setName("TestCase")</con:tearDownScript><con:properties><con:property><con:name>sda</con:name><con:value>sd</con:value></con:property><con:property><con:name>Control</con:name><con:value>1</con:value></con:property><con:property><con:name>TestCaseName</con:name><con:value>TC07_Invalid Payload</con:value></con:property><con:property><con:name>MY_OAUTH_URL</con:name><con:value>api/users</con:value></con:property><con:property><con:name>USER_PAYLOAD</con:name><con:value>{
+    "name": "${#TestCase#name}",
+    "job": "${#TestCase#job}"
+}</con:value></con:property><con:property><con:name>TestCase_ID</con:name><con:value>TC_0009</con:value></con:property><con:property><con:name>name</con:name><con:value>Antony</con:value></con:property><con:property><con:name>job</con:name><con:value>Docter</con:value></con:property><con:property><con:name>current_row</con:name><con:value>8</con:value></con:property><con:property><con:name>id</con:name><con:value>904</con:value></con:property><con:property><con:name>TestCase_Status</con:name><con:value>Passed</con:value></con:property><con:property><con:name>TestCaseID</con:name><con:value>Test7</con:value></con:property><con:property><con:name>firstname</con:name><con:value>Rachel</con:value></con:property><con:property><con:name>ExpectedStatuslistUser</con:name><con:value>201</con:value></con:property><con:property><con:name>email</con:name><con:value>eve.holt@reqres.in</con:value></con:property><con:property><con:name>password</con:name><con:value>pistol</con:value></con:property><con:property><con:name>ExpectedStatusCode</con:name><con:value>400</con:value></con:property><con:property><con:name>ErrorResponse</con:name><con:value>Missing email or username</con:value></con:property><con:property><con:name>Payload</con:name><con:value>{
+    "fsdsfsd": "rfedsffd",
+    "sdfsfd": "${#TestCase#Password}"
+}</con:value></con:property><con:property><con:name>Application_ID</con:name><con:value/></con:property><con:property><con:name>API_Log_Path</con:name><con:value>D:\Axway\Pack\..\Results\2020_09_13\Test7\Pass_22_21_21.txt</con:value></con:property><con:property><con:name>TestResult</con:name><con:value>Passed</con:value></con:property></con:properties></con:testCase><con:properties><con:property><con:name>TestData_BasePath</con:name><con:value>D:\Axway\Pack\..\Database\APITestData_DB.xls</con:value></con:property><con:property><con:name>TestData_Sheet_Name</con:name><con:value>Final</con:value></con:property></con:properties><con:setupScript/></con:testSuite><con:properties><con:property><con:name>Project_TestData_Row</con:name><con:value>1</con:value></con:property><con:property><con:name>chromedriver</con:name><con:value>D://SoapUi//chromedriver.exe</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
